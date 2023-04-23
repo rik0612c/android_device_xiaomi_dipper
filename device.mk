@@ -13,6 +13,9 @@ $(call inherit-product, vendor/xiaomi/dipper/dipper-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2248
 TARGET_SCREEN_WIDTH := 1080
 
+# Blur
+TARGET_ENABLE_BLUR := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
